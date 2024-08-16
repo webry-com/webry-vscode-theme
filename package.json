@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/web-dev-sam/webry-vscode-theme"
   },
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "web-dev-sam",
   "icon": "assets/wpm.png",
   "engines": {
@@ -21,6 +21,11 @@
         "label": "Webry Purple Minimal",
         "uiTheme": "vs-dark",
         "path": "./themes/Webry Purple Minimal-color-theme.json"
+      },
+      {
+        "label": "Webry Blue Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Webry Purple Mix-color-theme.json"
       }
     ]
   }

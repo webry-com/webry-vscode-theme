@@ -129,8 +129,8 @@
 		"gitDecoration.submoduleResourceForeground": "#72d3d3",
 		"gitDecoration.conflictingResourceForeground": "#8f93f6",
 		"gitDecoration.modifiedResourceForeground": "#8f93f6",
-        "gitDecoration.stageModifiedResourceForeground": "#8f93f6",
-        "gitDecoration.untrackedResourceForeground": "#b96ae3",
+		"gitDecoration.stageModifiedResourceForeground": "#8f93f6",
+		"gitDecoration.untrackedResourceForeground": "#b96ae3",
 		"gitDecoration.deletedResourceForeground": "#ec715c",
 		"gitDecoration.stageDeletedResourceForeground": "#ec715c",
 		"gitlens.trailingLineForegroundColor": "#1b1821",
@@ -1423,6 +1423,140 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#B267E6"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.astro",
+				"entity.name.tag.html",
+				"entity.name.tag.tsx"
+			],
+			"settings": {
+				"foreground": "#8b5cf6"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag",
+				"comment.block.astro",
+				"punctuation.definition.comment.astro",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"comment",
+				"punctuation.definition.comment.ts"
+			],
+			"settings": {
+				"foreground": "#444"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.astro",
+				"entity.other.attribute-name.tsx"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.astro",
+				"string.quoted.double.tsx",
+				"string.template.tsx"
+			],
+			"settings": {
+				"foreground": "#c4b5fd"
+			}
+		},
+		{
+			"scope": [
+				"support.class.component.astro"
+			],
+			"settings": {
+				"foreground": "#8b5cf6",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.import.ts",
+				"keyword.control.from.ts",
+				"keyword.control.flow.ts",
+				"keyword.control.export.ts",
+				"storage.type.ts",
+				"storage.type.type.ts",
+				"keyword.control.default.ts",
+				"keyword.control.satisfies.ts",
+				"keyword.control.type.ts",
+				"keyword.other.ts",
+				"keyword.operator.expression.typeof.ts",
+				"storage.type.function.ts",
+				"storage.type.enum.ts",
+				"keyword.control",
+				"storage.type.interface.ts",
+				"storage.modifier.ts",
+				"storage.type.class.ts",
+				"keyword.operator.expression.is.ts",
+				"keyword.operator.expression.infer.ts"
+
+			],
+			"settings": {
+				"foreground": "#3b82f6",
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.ts",
+				"string.regexp.ts",
+				"string.template.ts",
+				"string.quoted.single.ts"
+			],
+			"settings": {
+				"foreground": "#bfdbfe"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.alias.ts",
+				"variable.other.object.ts",
+				"variable.other.constant.ts",
+				"variable.other.object.property.ts",
+				"meta.object-literal.key.ts",
+				"entity.name.type.alias.ts",
+				"variable.object.property.ts",
+				"variable.parameter.ts",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.ts",
+				"entity.name.type.interface.ts",
+				"entity.name.type.class.ts",
+				"variable.other.readwrite.ts",
+				"meta.enum.declaration.ts",
+				"entity.name.type.enum.ts"
+			],
+			"settings": {
+				"foreground": "#fff",
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"entity.name.type.alias.ts",
+				"entity.name.type.ts",
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#bac7f8",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.ts",
+				"variable.other.constant.object.ts",
+				"constant.numeric.decimal.ts",
+				"support.type.builtin.ts"
+			],
+			"settings": {
+				"foreground": "#a78bfa"
 			}
 		}
 	]
